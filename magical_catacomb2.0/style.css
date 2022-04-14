@@ -1,0 +1,142 @@
+
+tr {
+    
+    
+    
+    border-spacing: 0px;
+    
+  
+    row-gap: -2px;
+    border: 0px;
+  
+    padding: 0;
+    margin:0;
+    /*height:70px;*/
+    justify-content: center;
+    
+    
+
+}
+
+td{
+    padding-bottom: 0px;
+    row-gap: 0px;
+    column-gap: 0px;
+    border-spacing: 0px, 0, 0, 0;
+    border-collapse: collapse;
+    border: 0px;
+    
+
+    border-bottom: 0px;;
+   
+    padding-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+
+    
+   
+}
+
+
+table{
+    height:490px !important;
+    
+    background-color: lightblue;
+    border-radius: 2%;
+    border-color: blue;
+    padding: 30px;
+    justify-content: center;
+   
+    
+ 
+    
+}
+.arrowimg{
+    padding:5px;
+    margin-left: 5px;
+}
+img{
+    border: 0ch;
+
+    justify-content: center;
+
+
+ 
+    border-bottom: 0px;
+    margin-bottom: -2px;
+    object-fit:fill;
+    
+    
+    
+
+}
+.notfix:hover{
+    background-color:white; 
+    color: white;
+    
+    cursor:pointer;
+    margin-bottom: -2px;
+}
+
+.wrapper {
+    width:1200px;
+    
+    overflow:auto;
+    padding: 100px;
+}
+.first {
+    padding-right:90px;
+    
+    float:left; 
+    
+}
+
+.second {
+    
+    float: left; /* add this */
+    width: 200px;
+    padding-top: 100px;
+    
+}
+.sample {
+	transition: transform 0.4s;
+}
+
+table {
+    empty-cells: hide;
+  }
+
+.button{
+    background-color: #4CAF50; /* Green */
+    color: white;box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+  }
+
+  p{
+      font-size:2rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.image2{
+    position:absolute;
+    margin-right: 50px;
+    margin-left: -50px;
+    margin-top: 25px;
+    
+    
+    z-index: 2;
+    
+}
+
+
+#player{
+    object-fit: contain;
+    position:absolute;
+    z-index: 5;
+    margin-bottom: -66px;
+    margin:10px;
+    margin-top: 10px;
+    justify-content: center;
+    object-position:relative;
+    
+}
